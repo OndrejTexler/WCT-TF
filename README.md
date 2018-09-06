@@ -33,9 +33,9 @@ Optionally:
 
 ## Running a pre-trained model
 
-1. Download VGG19 model: `bash models/download_vgg.sh`
+1. Download VGG19 model: `models/download_vgg.sh` (.bat on Windows)
 
-2. Download checkpoints for the five decoders: `bash models/download_models.sh`
+2. Download checkpoints for the five decoders: `models/download_models.sh` (.bat on Windows)
 
 3. Obtain style images. Two good sources are the [Wikiart dataset](https://www.kaggle.com/c/painter-by-numbers) and [Describable Textures Dataset](https://www.robots.ox.ac.uk/~vgg/data/dtd/).
 
@@ -78,9 +78,9 @@ There are also a couple of keyboard shortcuts:
 
 ## Running with Docker
 
-1. Download VGG19 model: `bash models/download_vgg.sh`
+1. Download VGG19 model: `models/download_vgg.sh` (.bat on Windows)
 
-2. Download checkpoints for the five decoders: `bash models/download_models.sh`
+2. Download checkpoints for the five decoders: `models/download_models.sh` (.bat on Windows)
 
 3. Obtain style images and save them in a new folder `images` in the repository. Two good sources are the [Wikiart dataset](https://www.kaggle.com/c/painter-by-numbers) and [Describable Textures Dataset](https://www.robots.ox.ac.uk/~vgg/data/dtd/).
 
@@ -107,7 +107,7 @@ nvidia-docker run \
 
 1. Download [MS COCO images](http://mscoco.org/dataset/#download) for content data.
 
-2. Download VGG19 model: `bash models/download_vgg.sh`
+2. Download VGG19 model: `models/download_vgg.sh` (.bat on Windows)
 
 3. Train one decoder per relu target layer. E.g. to train a decoder to reconstruct from relu3_1:
 
